@@ -4,24 +4,31 @@ import Image from "next/image";
 const HeroSection = () => {
   return (
     <section>
-      <div className="grid grid-cols-1 lg:grid-cols-12">
-        <div className="col-span-7 place-self-center">
-          <h1 className="text-white mb-4 text-4xl lg:text-6xl font-extrabold">
+      <div className="grid grid-cols-1 sm:grid-cols-12">
+        <div className="col-span-7 place-self-center text-center sm:text-left">
+          <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
             Hello, I'm Taku
           </h1>
-          <p className="text-gray-300 text-lg lg:text-4xl mb-5">
+          <p className="text-gray-300 text-base sm:text-lg lg:text-4xl mb-6">
             Welcome to my portfolio
           </p>
-          <p className="text-gray-400 mb-6">Discover my projects and skills.</p>
+          <div>
+            <button className="text-white px-6 py-3 w-full sm:w-fit rounded-full bg-[#252525] mr-4 hover:bg-slate-200 hover:text-black mb-4">
+              Hire My Services
+            </button>
+            <button className="text-white px-6 py-3 w-full sm:w-fit rounded-full bg-[#252525] mr-4 hover:bg-slate-200 hover:text-black mb-4">
+              Download My CV
+            </button>
+          </div>
         </div>
-        <div className="col-span-5 place-self-center mt-4 lg:mt-0">
-          <div className="rounded-full bg-[#181818] w-[450px] h-[450px] lg:w-[400px] lg:h-[400px] relative">
+        <div className="col-span-5 place-self-center mt-4 lg:mt-0 ">
+          <div className="rounded-full bg-[#181818] w-[350px] h-[350px] lg:w-[400px] lg:h-[400px] relative">
             <Image
               src="/Image/heroImage.png"
               alt="Hero Image"
-              width={300}
-              height={300}
-              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-10/22 left-10/22"
+              width={250}
+              height={250}
+              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-10/22 left-10/22 "
             />
           </div>
         </div>
