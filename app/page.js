@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col bg-[#121212]">
       <Navbar />
-      <div className="container container mx-auto px-5 py-10">
+      <div className="container container mt-24 mx-auto px-5 py-10">
         <HeroSection />
       </div>
     </main>

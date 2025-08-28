@@ -14,7 +14,7 @@ const HeroSection = () => {
           </p>
           <div>
             <button className="text-white px-6 py-3 w-full sm:w-fit rounded-full bg-[#252525] mr-4 hover:bg-slate-200 hover:text-black mb-4">
-              Hire My Services
+              Hire Me
             </button>
             <button className="text-white px-6 py-3 w-full sm:w-fit rounded-full bg-[#252525] mr-4 hover:bg-slate-200 hover:text-black mb-4">
               Download My CV
@@ -36,5 +36,5 @@ const HeroSection = () => {
     </section>
   );
 };
-
+ 
 export default HeroSection;
