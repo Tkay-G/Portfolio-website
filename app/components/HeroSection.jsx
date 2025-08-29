@@ -7,7 +7,10 @@ const HeroSection = () => {
       <div className="grid grid-cols-1 sm:grid-cols-12">
         <div className="col-span-7 place-self-center text-center sm:text-left">
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
-            Hello, I'm Taku
+            Hello, I'm {""}
+            <span className="text-transparent bg-clip-text bg-[#7B2CBF]">
+              Taku
+            </span>
           </h1>
           <p className="text-gray-300 text-base sm:text-lg lg:text-4xl mb-6">
             Welcome to my portfolio
@@ -36,5 +39,5 @@ const HeroSection = () => {
     </section>
   );
 };
- 
+
 export default HeroSection;
