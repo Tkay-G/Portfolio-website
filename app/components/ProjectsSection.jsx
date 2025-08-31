@@ -15,7 +15,7 @@ const projectsData = [
     title: "E-commerce Template",
     description:
       "A template of an E-commerce site, made with JS, HTML and CSS. Currently only the front page is designed  ",
-    image: "/Image/Projects/download.jpg",
+    image: "/Image/Projects/projectE-com.png",
     tag: ["All", "Web"],
   },
 ];

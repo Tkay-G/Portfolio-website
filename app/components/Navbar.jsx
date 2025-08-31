@@ -50,7 +50,7 @@ const Navbar = () => {
               <li key={link.title}>
                 <a
                   href={link.href}
-                  className="text-white text-4xl hover:text-[#7b2cbf]"
+                  className="text-white text-3xl mr-3 px-3 hover:text-[#7b2cbf]"
                 >
                   {link.title}
                 </a>
@@ -59,7 +59,9 @@ const Navbar = () => {
           </ul>
         </div>
       </div>
-      {navbarOpen ? <MenuOverlay links={navLinks} /> : null}
+      {navbarOpen ? (
+        <MenuOverlay links={navLinks} onClose={() => setNavbarOpen(false)} />
+      ) : null}
     </nav>
   );
 };
