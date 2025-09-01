@@ -2,11 +2,11 @@ import React from "react";
 import Link from "next/link";
 import { CodeBracketIcon, EyeIcon } from "@heroicons/react/24/outline";
 
-const ProjectCard = ({ title, description, imgUrl, gitUrl, previewUrl }) => {
+const ServiceCard = ({ title, description, imgUrl, gitUrl, previewUrl }) => {
   return (
     <div>
       <div
-        className="h-52 md:h-72 rounded-t-xl mt-5 relative group"
+        className="h-52 md:h-72 rounded-t-xl relative group"
         style={{ backgroundImage: `url(${imgUrl})`, backgroundSize: "cover" }}
       >
         {/* Overlay */}

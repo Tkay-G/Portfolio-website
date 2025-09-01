@@ -53,15 +53,15 @@ const AboutSection = () => {
   return (
     <section
       id="About"
-      className="text-white about-section py-16 px-4 max-w-3xl ml-[200px] mr-[120px] text-center"
+      className="text-white about-section py-16 px-4  max-w-5xl mx-auto text-center"
     >
-      <div className="grid md:grid-cols-2 gap-8 items-center px-8 py-4 xl:gap-24 sm:py-16 xl:px-8">
+      <div className="grid w-full md:grid-cols-2 gap-8 items-center px-8 py-4 xl:gap-24 sm:py-16 xl:px-8">
         <Image
-          src="/Image/logo v3.png"
+          src="/Image/AboutImg_2.jpg"
           alt="logo intials"
           width={1000}
           height={1000}
-          className="item-center rounded-3xl mb-4 xl:w-auto xl:h-auto"
+          className="item-center rounded-3xl mb-4 md:w-full h-auto "
         />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-[#7b2cbf] text-4xl font-bold mb-6">About Me</h2>

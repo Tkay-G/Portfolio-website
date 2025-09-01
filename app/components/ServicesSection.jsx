@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from "react";
-import ServiceCard from "./ServiceCard.jsx";
+import ProjectCard from "./ProjectCard.jsx";
+import ProjectTag from "./ProjectTag.jsx";
 
 const projectsData = [
   {

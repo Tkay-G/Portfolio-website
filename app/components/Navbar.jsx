@@ -27,6 +27,7 @@ const Navbar = () => {
             height={50}
           />
         </a>
+
         <div className="mobile-menu block md:hidden">
           {!navbarOpen ? (
             <button
