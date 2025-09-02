@@ -71,7 +71,7 @@ const AboutSection = () => {
             apps. I love creating beautiful, performant, and accessible user
             experiences. I have experience working with {""}
             <span className="text-transparent bg-clip-text bg-[#b45eff]">
-              HTML, CSS, JavaScript, React, Next.js, and Python.
+              HTML, CSS, JavaScript, React(Next.js), and Python.
             </span>
             I'm always eager to learn new technologies and improve my skills.
             When I'm not coding, I enjoy reading, listening to music, and gaming

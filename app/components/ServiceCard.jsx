@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { CodeBracketIcon, EyeIcon } from "@heroicons/react/24/outline";
+import { EyeIcon } from "@heroicons/react/24/outline";
 
 const ServiceCard = ({ title, description, imgUrl, gitUrl, previewUrl }) => {
   return (
@@ -12,21 +12,12 @@ const ServiceCard = ({ title, description, imgUrl, gitUrl, previewUrl }) => {
         {/* Overlay */}
         <div className="overlay absolute top-0 left-0 w-full h-full bg-[#181818] opacity-0 group-hover:opacity-80 transition-opacity duration-500  flex space-x-8 items-center justify-center">
           <Link
-            href={gitUrl}
-            className="h-14 w-14 border-2 rounded-full border-slate-300  hover:border-white flex items-center justify-center"
-          >
-            <CodeBracketIcon
-              className="h-8 w-8 text-slate-300 cursor-pointer hover:text-white"
-              aria-label="Open Github Repository"
-            />
-          </Link>
-          <Link
             href={previewUrl}
             className="h-14 w-14 border-2 rounded-full border-slate-300 hover:border-white flex items-center justify-center"
           >
             <EyeIcon
               className="h-8 w-8 text-slate-300 cursor-pointer hover:text-white"
-              aria-label="Preview Project"
+              aria-label="Preview "
             />
           </Link>
         </div>
@@ -39,4 +30,4 @@ const ServiceCard = ({ title, description, imgUrl, gitUrl, previewUrl }) => {
     </div>
   );
 };
-export default ProjectCard;
+export default ServiceCard;

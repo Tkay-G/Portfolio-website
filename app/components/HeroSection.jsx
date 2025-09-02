@@ -7,21 +7,22 @@ const HeroSection = () => {
       <div className="grid grid-cols-1 sm:grid-cols-12">
         <div className="col-span-7 place-self-center text-center sm:text-left">
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
-            Hello, I'm {""}
+            Heyyy, I'm {""}
             <span className="text-transparent bg-clip-text bg-[#7B2CBF]">
               Taku
             </span>
           </h1>
           <p className="text-gray-300 text-base sm:text-lg lg:text-4xl mb-6">
-            Welcome to my portfolio
+            Welcome to my portfolio site, get to know me and my work!
           </p>
           <div>
             <button className="text-white px-6 py-3 w-full sm:w-fit rounded-full bg-[#252525] mr-4 hover:bg-slate-200 hover:text-black mb-4">
-              Hire Me
+              <a href="#Contact">Hire Me</a>
             </button>
-            <button className="text-white px-6 py-3 w-full sm:w-fit rounded-full bg-[#252525] mr-4 hover:bg-slate-200 hover:text-black mb-4">
+            {/* <button className="text-white px-6 py-3 w-full sm:w-fit rounded-full bg-[#252525] mr-4 hover:bg-slate-200 hover:text-black mb-4">
               Download My CV
-            </button>
+            </button> 
+            */}
           </div>
         </div>
         <div className="col-span-5 place-self-center mt-4 lg:mt-0 ">

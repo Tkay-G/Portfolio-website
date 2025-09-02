@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import React, { useState } from "react";
 
 const ContactSection = () => {
   const [form, setForm] = useState({ name: "", email: "", message: "" });
@@ -10,7 +10,7 @@ const ContactSection = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    window.location.href = `mailto:your@email.com?subject=Contact from ${form.name}&body=${form.message} (${form.email})`;
+    window.location.href = `mailto:TakuG.dev@email.com?subject=Contact from ${form.name}&body=${form.message} (${form.email})`;
   };
 
   return (
