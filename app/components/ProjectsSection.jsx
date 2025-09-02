@@ -9,9 +9,9 @@ const projectsData = [
     title: "Next.Js Portfolio Site",
     description:
       "A personal portfolio website built with Next.js and Tailwind CSS ",
-    image: "/Image/Projects/fashion-blog_madterbundles-2-724-1024x1024.jpg",
+    image: "/Image/Projects/portfolio.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/Tkay-G/Portfolio-website",
     previewUrl: "/",
   },
   {
@@ -21,8 +21,8 @@ const projectsData = [
       "A template of an E-commerce site, made with JS, HTML and CSS. Currently only the front page is designed  ",
     image: "/Image/Projects/projectE-com.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/Tkay-G/E-commerce_Temp.git",
+    previewUrl: "https://tkay-g.github.io/E-commerce_Temp/",
   },
 ];
 
