@@ -1,5 +1,6 @@
 import { Inter, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const interSans = Inter({
   variable: "--font-geist-sans",
