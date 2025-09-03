@@ -66,10 +66,10 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-[#7b2cbf] text-4xl font-bold mb-6">About Me</h2>
           <p className="text:-base lg:text-lg text-white">
-            I'm passionate aspiring developer currently working on Web
-            Development and I have a passion for development of IT solutions and
-            apps. I love creating beautiful, performant, and accessible user
-            experiences. I have experience working with {""}
+            I'm a passionate aspiring developer currently working on Web
+            Development. and I have an interest in IT solutions and apps. I love
+            creating beautiful, performant, and accessible user experiences and
+            I have experience working with {""}
             <span className="text-transparent bg-clip-text bg-[#b45eff]">
               HTML, CSS, JavaScript, React(Next.js), and Python.
             </span>
