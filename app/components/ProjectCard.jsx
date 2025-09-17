@@ -10,7 +10,7 @@ const ProjectCard = ({ title, description, imgUrl, gitUrl, previewUrl }) => {
         style={{ backgroundImage: `url(${imgUrl})`, backgroundSize: "cover" }}
       >
         {/* Overlay */}
-        <div className="overlay absolute top-0 left-0 w-full h-full bg-[#181818] opacity-0 group-hover:opacity-80 transition-opacity duration-500  flex space-x-8 items-center justify-center">
+        <div className="overlay absolute top-0 left-0 w-full h-full bg-[#181818] opacity-0 group-hover:opacity-80 pointer-events-none group-hover:pointer-events-auto transition-opacity duration-500 flex space-x-8 items-center justify-center">
           <Link
             href={gitUrl}
             className="h-14 w-14 border-2 rounded-full border-slate-300  hover:border-white flex items-center justify-center"
@@ -40,3 +40,4 @@ const ProjectCard = ({ title, description, imgUrl, gitUrl, previewUrl }) => {
   );
 };
 export default ProjectCard;
+

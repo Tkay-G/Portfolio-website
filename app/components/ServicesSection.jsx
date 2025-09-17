@@ -9,7 +9,7 @@ const projectsData = [
     title: "I'll Build a Responsive Website",
     description:
       "A fiverr Gig, where I will build a responsive website for you, using HTML, CSS and JavaScript. Add ons are available",
-    image: "/Image/Projects/projectE-com.png",
+    image: "/Image/projectE-com.png",
     tag: ["All", "Fiverr"],
     gitUrl: "/",
     previewUrl: "https://www.fiverr.com/s/0bB8mbv",

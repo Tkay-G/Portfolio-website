@@ -9,7 +9,7 @@ const projectsData = [
     title: "Next.Js Portfolio Site",
     description:
       "A personal portfolio website built with Next.js and Tailwind CSS ",
-    image: "/Image/Projects/portfolio.png",
+    image: "/Image/portfolio.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/Tkay-G/Portfolio-website",
     previewUrl: "/",
@@ -19,10 +19,20 @@ const projectsData = [
     title: "E-commerce Template",
     description:
       "A template of an E-commerce site, made with JS, HTML and CSS. Currently only the front page is designed  ",
-    image: "/Image/Projects/projectE-com.png",
+    image: "/Image/projectE-com.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/Tkay-G/E-commerce_Temp.git",
     previewUrl: "https://tkay-g.github.io/E-commerce_Temp/",
+  },
+  {
+    id: 3,
+    title: "Small Business Site",
+    description:
+      "A small business website for a tailoring shop built with Next.js and Tailwind CSS ",
+    image: "/Image/laikens_site.png",
+    tag: ["All", "Web"],
+    gitUrl: "/",
+    previewUrl: "https://laikens-designs.vercel.app/",
   },
 ];
 
